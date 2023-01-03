@@ -1,0 +1,27 @@
+html,body {
+    font-family:Arial, Helvetica, sans-serif;;
+    margin-left:2%;
+    padding:0;
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  input {
+    display: table;
+    padding:0px;
+    font-size: 18px;
+    margin-bottom: 5px; }
+  .add,.cover {
+    width: 20%;
+    height: auto;
+    float: center;
+    margin: 10px;
+  }
+   #file{
+    width: .5px;
+    height: .5px;
+}
+   

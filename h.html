@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="c.css">
+    <title>Image Resizer</title>
+</head>
+
+<body>
+    <div align="center">
+        <div class="add">
+
+            <h3>Resize Image</h3>
+            <form>
+                <label for="file" class="upload" style="color: rgb(198, 71, 71);">Upload Image</label>
+
+                <input type="file" id="file" accept="image/*" onchange="loadImage(event)">
+
+                <label>Width</label>
+                <input type="number" id="imWidth">
+
+                <label>Height</label>
+                <input type="number" id="imHeight">
+            </form>
+            <button type="submit" id="view">View</button>
+        </div>
+    </div>
+    <div class="cover">
+        <canvas id="final">
+            <img src="" id="Display" alt="">
+        </canvas>
+    </div>
+    <script src="j.js"></script>
+</body>
+
+</html>
